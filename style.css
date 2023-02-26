@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Mặc định*/
+
+.website{
+    height: auto;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.container-fluid{
+    height: 75px;
+    width: auto;
+    background-color: red;
+}
+
+.nav-link.active{
+    color: white !important;
+}
+
+.nav-link.dropdown-toggle{
+    color: white;
+}
+
+.btn.btn-outline-success{
+    height: 40px;
+    width: 150px;
+    border-color: greenyellow;
+    background-color: greenyellow ;
+    color: black;
+}
+
+.btn.btn-outline-success:hover{
+    background-color: red;
+    border-color: black;
+}
